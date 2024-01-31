@@ -45,24 +45,12 @@ export function HomeContent() {
   const { readme, loading, error } = useReadme();
   const socialMedia: SocialMedia[] = [
     {
-      platform: 'facebook',
-      link: 'https://facebook.com/kasfulk',
-    },
-    {
       platform: 'instagram',
-      link: 'https://instagram.com/kasfulkurniawan',
-    },
-    {
-      platform: 'twitter',
-      link: 'https://twitter.com/kasfulkurniawan',
-    },
-    {
-      platform: 'telegram',
-      link: 'https://t.me/KasfulKurniawan',
+      link: 'https://instagram.com/_riskimr',
     },
     {
       platform: 'linkedin',
-      link: 'https://www.linkedin.com/in/kasfulkurniawan/',
+      link: 'https://www.linkedin.com/in/riskimaulanarahman/',
     },
   ];
 
@@ -88,7 +76,7 @@ export function HomeContent() {
                 src="https://avatars.githubusercontent.com/u/61037397?v=1"
               />
               <Text align="center" size="lg" weight={800} mt="md">
-                Kasjful Kurniawan
+                Riski Maulana Rahman
               </Text>
               <Text align="center" size="sm" mb={20}>
                 Fullstack Developer
@@ -97,7 +85,7 @@ export function HomeContent() {
               <Center>{socialMediaShow}</Center>
               <Button
                 leftIcon={<IconMail />}
-                onClick={() => window.open('mailto:kasful.bpp@gmail.com')}
+                onClick={() => window.open('mailto:riskimaulanarahman@gmail.com')}
                 fullWidth
                 mt={20}
                 size="sm"

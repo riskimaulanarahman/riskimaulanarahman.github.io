@@ -2,7 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 
 const url =
-  'https://raw.githubusercontent.com/kasfulk/kasfulk/master/README.md';
+  'https://raw.githubusercontent.com/riskimaulanarahman/riskimaulanarahman/main/README.md';
 
 const useReadme = () => {
   const {
