@@ -127,7 +127,7 @@ export default function AppHeader({ links }: AppHeaderProps) {
         <Group spacing={0} className={classes.social} position="right" noWrap>
           <ActionIcon
             onClick={() => {
-              window.open('https://github.com/kasfulk');
+              window.open('https://github.com/riskimaulanarahman');
             }}
             size="lg"
           >

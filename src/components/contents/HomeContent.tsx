@@ -73,7 +73,7 @@ export function HomeContent() {
                 size={120}
                 radius={120}
                 mx="auto"
-                src="https://avatars.githubusercontent.com/u/61037397?v=1"
+                src="https://avatars.githubusercontent.com/u/61986465?v=4"
               />
               <Text align="center" size="lg" weight={800} mt="md">
                 Riski Maulana Rahman
