@@ -13,13 +13,13 @@ type Props = {
 export default function AppLayout({ title, children }: Props) {
   const links = [
     { link: '/', label: 'Home' },
-    { link: '/about-me', label: 'About Me' },
+    // { link: '/about-me', label: 'About Me' },
   ];
 
   return (
     <>
       <Head>
-        <title>{title} | Kasjful Kurniawan Pages</title>
+        <title>{title} | Riski Maulana Rahman Pages</title>
       </Head>
       <AppShell
         navbarOffsetBreakpoint="sm"

@@ -36,7 +36,7 @@ export default function App({ Component, pageProps }: AppProps) {
               />
 
               <link rel="manifest" href="/manifest.json" />
-              <link
+              {/* <link
                 href="/icons/Icon-App-20x20.png"
                 rel="icon"
                 type="image/png"
@@ -51,7 +51,7 @@ export default function App({ Component, pageProps }: AppProps) {
               <link
                 rel="apple-touch-icon"
                 href="/icons/Icon-App-20x20.png"
-              ></link>
+              ></link> */}
               <meta name="theme-color" content="#317EFB" />
             </Head>
             <Component {...pageProps} />
